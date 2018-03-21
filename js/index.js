@@ -39,7 +39,11 @@ $(document).ready(function(){
         $('.header span').removeClass('header_active');
         $('#text').css('background','url(img/bg.png)')
     });
-
+    $('#nemoney').click(function () {
+        $('#text').css('background','none')
+        $(this).addClass('header_active').siblings().removeClass('header_active')
+        $('#text').load('html/count.html');
+    });
 })
 
 //

@@ -56,15 +56,8 @@ td:last-child{
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80afff', endColorstr='#2185ff'); /* IE*/
 }
 .table{
-  width: 100%;
-  font-size: 14px;
-  text-align: center;
   border-collapse:separate;
   border-spacing:0px 20px;
-  margin: auto;
-  color: #64768a;
-  padding: 0 20px;
-  border-radius: 5px;
 }
 .table tbody tr  td {
   border: 0;

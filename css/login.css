@@ -108,7 +108,7 @@ header span{
 .create{
     display: block;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .article_login form {
     font-size: 14px;
@@ -131,43 +131,16 @@ form input{
     margin: auto;
     font-size: 20px;
     border: 0;
-    margin-top: 20px;
+    margin-top: 40px;
 }
-.article_login form .l_warn ,.motal form .l_warn,.mo_warn,.pw_warn,.motal form .mona_warn,.mopwd_warn{
+.article_login form .l_warn ,.mo_warn,.pw_warn,.mopwd_warn,.com_warn,.go_warn,.num_warn{
     font-size: 12px;
     color: red;
     display: none;
 }
-/*登陆弹框*/
-.motal{
-    height: 330px;
-    width: 50%;
-    background-color: rgba(255,255,255,1);
-    position: absolute;
-    left:50%;
-    top:50%;
-    margin-left: calc(-50%/2);
-    margin-top: -220px;
-    padding: 50px;
-    font-size: 12px;
-    display: none;
+.repeat{
+    width: 50px;
     border-radius: 5px;
-}
-.login,.no{
-    height: 40px;
-    width: 100px;
-    border: 0;
-    border-radius: 10px;
-    margin: 10px;
-}
-.add{
-    background-color: deepskyblue;
-    color: #fff;
-}
-.motal_close{
-    margin:-30px  -10px -10px -10px;
-    float: right;
-    cursor: pointer;
 }
 .create img{
     display: block;
@@ -177,12 +150,17 @@ form input{
 }
 .cre_pwd{
     height: 30px;
-    width: 100px;
+    width: 150px;
     border-radius: 5px;
+    margin-top: 10px;
+}
+.warn_list{
+    margin-top: 20px;
 }
 .warn_list li{
     list-style: square;
     margin-left: 20px;
+    line-height: 25px;
 }
 
 .welcome{
@@ -250,7 +228,14 @@ form input{
     text-align: center;
 }
 
-
+.adress,.cret_pwd{
+    margin: 10px 0;
+}
+.tran_money input{
+    height: 30px;
+    border-radius: 5px;
+    width: 100px;
+}
 
 
 
